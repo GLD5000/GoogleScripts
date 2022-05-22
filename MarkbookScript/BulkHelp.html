@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+/*<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">*/
+/* BODY */
+body {
+  color: #222;
+  font: 13px/18px arial, sans-serif;
+  margin: 0;
+}
+
+/* BUTTONS */
+
+.button,
+button,
+input[type="button"],
+input[type="image"],
+input[type="reset"],
+input[type="submit"] {
+  background: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background: -ms-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background: -o-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background: linear-gradient(top, #f5f5f5, #f1f1f1);
+  border: 1px solid #dcdcdc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #333;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  height: 29px;
+  line-height: 27px;
+  margin: 0;
+  min-width: 72px;
+  outline: 0;
+  padding: 0 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+/* TEXT */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font: 16px/24px arial, sans-serif normal;
+}
+
+a {
+  color: #15c;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  color: #dd4b39;
+  font-weight: bold;
+}
+
+.error {
+  color: #dd4b39;
+}
+
+.gray,
+.grey {
+  color: #777;
+}
+
+.secondary,
+.small {
+  color: #777;
+  font: 11px/16px arial, sans-serif;
+}
+
+</style>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+<h2>You can make multiple copies of any sheet and change one cell to a list of values.</h2>
+<p>&nbsp;</p>
+<h3>You can do this in one of two ways:</h3>
+<p>1. Putting a list in the 'Data Validation' of the cell you want to change.</p>
+<p>2. Making a separate list and using the 'Make Bulk List' button.</p>
+<p>&nbsp;</p>
+<p>If you want to delete the sheets you made, you can use 'undo' (Ctrl-Z) or use the 'Delete Bulk Sheets' button.</p>
+    <input type="button" value="Close" onclick="google.script.host.close()" />
+    <p>&nbsp;</p>
+    <input type ="button" Value="Test" onclick="tester()" />
+  </body>
+
+
+<script>
+  function tester() {
+    google.script.run.AnswerSelectedQs();
+  }
+</script>
+
+</html>
