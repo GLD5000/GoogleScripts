@@ -1,2 +1,2 @@
-# GoogleScriptSnippets
-Go to snippets for easy coding.
+# GoogleScripts
+A series of fortunate files: a repository for all my scripts built up over the years...
